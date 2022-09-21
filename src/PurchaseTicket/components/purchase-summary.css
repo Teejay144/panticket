@@ -1,0 +1,107 @@
+.summary-container {
+	width: 25.25rem;
+	border: 1px solid #d7dcf8;
+	border-radius: 1rem;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.summary-header {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #d7dcf8;
+	padding: 1.87rem 0;
+}
+
+.summary-header svg {
+	background-color: #e0f5e9;
+	width: 2.1875rem;
+	height: 2.1875rem;
+	padding: 0.5rem 0.5rem 0.5625rem 0.5625rem;
+	border-radius: 0.5rem;
+	margin-right: 1rem;
+}
+
+.summary-header span {
+	color: #1a1a38;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.summary-content-title {
+	margin-bottom: 3.5rem;
+}
+
+.summary-content-title p:first-of-type {
+	font-weight: 500;
+	font-size: 0.75rem;
+	color: #1a1a38;
+	text-transform: uppercase;
+}
+
+.summary-content-title p:last-of-type {
+	font-family: 'inter';
+	font-weight: 600;
+	font-size: 1.3rem;
+	letter-spacing: 0.1rem;
+}
+
+.summary-content-title p:last-of-type span {
+	font-family: 'Syne';
+	font-size: 2rem;
+	font-weight: 800;
+}
+
+.summary-content-body {
+	color: #1a1a38;
+}
+
+.summary-content-body p:first-of-type {
+	font-weight: 500;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+}
+
+.ticket-email-container {
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 2.5rem;
+}
+
+.summary-content-body p:last-of-type {
+	font-weight: 600;
+	font-size: 16px;
+	margin-bottom: 3.8125rem;
+}
+
+.summary-content-time {
+	display: flex;
+	justify-content: space-between;
+}
+
+.summary-content-time div {
+	width: 50%;
+}
+
+.summary-content-time div p:first-of-type {
+	font-weight: 600;
+	font-size: 1rem;
+	color: #1a1a38;
+	margin-bottom: 0.5rem;
+}
+
+.summary-content-time div p:last-of-type {
+	display: flex;
+	width: 70%;
+	justify-content: space-between;
+}
+
+@media screen and (min-width: 600px) {
+	.summary-container {
+		width: 70%;
+	}
+}

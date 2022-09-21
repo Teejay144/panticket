@@ -1,0 +1,33 @@
+.organizer-container {
+	background-color: #f1f3f4;
+	margin-bottom: 20px;
+}
+
+.organizer-info .info-title {
+	color: #1a1a38;
+}
+
+.organizer-socials {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	/* coloum-gap: 40px; */
+	column-gap: 40px;
+}
+
+.list-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.list-container p:first-of-type {
+	color: #c9c9cd;
+	font-size: 0.75rem;
+	font-weight: 400;
+	margin-bottom: 4px;
+}
+
+.list-container p:last-of-type {
+	color: #1a1a38;
+	font-weight: 400;
+}

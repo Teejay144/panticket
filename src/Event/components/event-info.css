@@ -1,0 +1,41 @@
+.event-content-container {
+	width: 25.25rem;
+	border: 1px solid #d7dcf8;
+	border-radius: 1rem;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	/* margin-bottom: 4rem; */
+}
+
+.info-title {
+	font-family: 'Syne';
+	font-weight: 600;
+	font-size: 1.5rem;
+	color: #2c3c90;
+	margin-bottom: 8px;
+}
+
+.info-description {
+	font-weight: 400;
+	font-size: 16px;
+	color: #1a1a38;
+	line-height: 1.5rem;
+}
+
+.info-description p {
+	display: inline;
+}
+
+.date {
+	font-size: inherit;
+	color: inherit;
+	margin-right: 32px;
+}
+
+@media screen and (min-width: 600px) {
+	.event-content-container {
+		width: 70%;
+	}
+}

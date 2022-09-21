@@ -1,0 +1,55 @@
+.bigcard-container {
+	height: 38.875rem;
+	/* width: 25.688rem; */
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 1rem;
+	margin-bottom: 24px;
+}
+
+.bigcard-container img {
+	height: 28.938rem;
+	width: 100%;
+	border-radius: 1rem 1rem 0 0;
+}
+
+.card-details {
+	height: 9.938rem;
+	padding: 1.5rem 2rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.card-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.name,
+.price {
+	font-weight: 500;
+	font-size: 1.25rem;
+	color: #333333;
+}
+
+.location {
+	font-weight: 400;
+	font-size: 14px;
+	color: rgba(51, 51, 51, 0.5);
+}
+
+.discount {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ead3e8;
+	color: #94248c;
+	border-radius: 1rem;
+	padding: 8px 12px;
+	width: 94px;
+	font-weight: 400;
+	font-size: 0.75rem;
+}
